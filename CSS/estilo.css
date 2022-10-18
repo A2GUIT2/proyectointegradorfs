@@ -1,0 +1,27 @@
+main > .container {
+  padding: 30px 0;
+}
+
+/* PRODUCTOS*/
+
+.sombra {
+  box-shadow: 1px 1px 12px #3cff00;
+}
+
+/*CABEZA DE PAGINA*/
+
+/*PIE DE PAGINA*/
+
+.footercustom {
+  background-color: greenyellow;
+  text-align: center;
+}
+
+.puntos {
+  list-style: none;
+}
+
+
+
+
+
