@@ -1,0 +1,267 @@
+html {
+  box-sizing: border-box;
+  font-size: 60.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.velo-negro {
+  background-color: greenyellow;
+}
+
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  max-width: 40rem;
+  margin: 3rem 0;
+}
+
+nav {
+  margin: 3rem 0 8rem 0;
+  background-color: green;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+}
+a {
+  text-decoration: none;
+}
+nav a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  color: white;
+  text-transform: uppercase;
+}
+nav a:hover {
+  color: black;
+}
+
+.nuestros-productos {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.producto {
+  background-color: green;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.producto-blanco {
+  background-color: white;
+  height: 40rem;
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.producto-precio,
+.producto-nombre {
+  color: white;
+  font-family: helvetica;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.producto-precio {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.producto-nombre {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.footer {
+  background-color: black;
+  padding: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 2rem;
+  color: greenyellow;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.nosotros {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+  margin-bottom: 20rem;
+}
+.nosotros-texto {
+  color: white;
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nosotros-img {
+  background-color: white;
+  border-radius: 5%;
+}
+
+.bloques {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rem;
+}
+
+.bloques img {
+  width: 20rem;
+  margin-bottom: 2rem;
+  height: 20rem;
+}
+.bloque-titulo {
+  margin: 0;
+}
+
+.bloque {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 5rem;
+}
+.bloque-titulo {
+  color: green;
+  font-size: 4rem;
+  margin: 3rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.enlace-footer:hover {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nuestros-cursos {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.cursos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.curso {
+  background-color: green;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.curso-blanco {
+  background-color: white;
+  height: 40rem;
+  object-fit: contain;
+  padding: 1rem;
+}
+
+.info-curso,
+.curso-nombre {
+  color: white;
+  font-family: times;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.info-curso {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.curso-nombre {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.informacion {
+  height: 40px;
+  width: 500px;
+  background-color: white;
+  border: none;
+}
+
+button {
+  height: 40px;
+  width: 300px;
+  background-color: white;
+  border: none;
+}
+
+a {
+  color: black;
+}
+
+.borrar-producto {
+  background-color: green;
+  border-radius: 50px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: greenyellow;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+}
+
+.submenu:hover #carrito {
+  display: block;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: green;
+  padding: 20px;
+}
+
+.vacio {
+  padding: 10px;
+  background-color: greenyellow;
+  text-align: center;
+  border-radius: 10px;
+  color: black;
+}
+
+.button {
+  background-color: green;
+  color: greenyellow;
+}
+
+.imagen-carrito{
+  height: 35px;
+  width: 35px;
+}
